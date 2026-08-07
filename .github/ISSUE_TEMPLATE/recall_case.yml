@@ -1,0 +1,31 @@
+name: Recall case
+description: A real fuzzy memory RepoRecall should learn to retrieve
+title: "[Recall] "
+labels: ["recall-case"]
+body:
+  - type: textarea
+    id: memory
+    attributes:
+      label: What did you remember before you knew the repo name?
+      description: Use your original fuzzy clues. Please do not copy wording from the repository README.
+      placeholder: "I remembered a local app that..."
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: Correct public repository
+      placeholder: "https://github.com/owner/repo"
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Where did RepoRecall rank it?
+      options:
+        - "#1"
+        - "#2–#3"
+        - "#4–#8"
+        - Not returned
+    validations:
+      required: true
