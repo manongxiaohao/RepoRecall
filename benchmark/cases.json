@@ -1,0 +1,22 @@
+[
+  {
+    "query": "a self hosted workflow automation tool with a visual node editor like zapier",
+    "expected": "n8n-io/n8n"
+  },
+  {
+    "query": "open source web analytics that is a privacy friendly google analytics alternative",
+    "expected": "plausible/analytics"
+  },
+  {
+    "query": "a self hosted kanban project management app that feels like trello",
+    "expected": "wekan/wekan"
+  },
+  {
+    "query": "local private chat with documents pdf rag web ui",
+    "expected": "Mintplex-Labs/anything-llm"
+  },
+  {
+    "query": "open source backend platform alternative to firebase postgres auth realtime",
+    "expected": "supabase/supabase"
+  }
+]
